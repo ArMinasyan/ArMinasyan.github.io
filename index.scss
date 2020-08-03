@@ -1,0 +1,216 @@
+body {
+    background-image: url('./background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+#general {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: -12px;
+
+    #Main {
+        display: grid;
+
+        #p1,
+        #p2,
+        #p3 {
+            display: flex;
+
+            .d1 {
+                background-color: black;
+                opacity: .7;
+                margin-left: 30px;
+                width: 200px;
+                height: 180px;
+
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+                border-bottom-right-radius: 20px;
+                border-bottom-left-radius: 20px;
+
+                &:hover {
+                    background: none;
+                }
+
+                span {
+                    font-size: 24px;
+                    font-family: 'Merriweather';
+                    text-align: center;
+                    display: block;
+                    margin-top: 70px;
+                    color: white;
+
+                    &:hover {
+                        cursor: default;
+                    }
+                }
+            }
+        }
+
+        #p3 {
+            display: flex;
+
+            .d1 {
+                width: 428px;
+            }
+        }
+    }
+
+    #Show {
+        width: 100%;
+        text-align: center;
+        margin-left: 15px;
+        background-color: black;
+        opacity: .7;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+
+        .item {
+            display: none;
+        }
+
+        #welcome {
+            display: block;
+            margin-top: 200px;
+            font-size: 100px;
+            font-family: 'Merriweather';
+            color: white;
+        }
+
+        #personal {
+            display: none;
+            margin-top: 200px;
+
+            h3 {
+
+                font-size: 24px;
+                font-family: 'Merriweather';
+                color: white;
+            }
+        }
+
+        #education {
+            display: none;
+            margin-top: 75px;
+
+            .l1 {
+                display: flex;
+                margin-top: 15px;
+
+
+                .l2 {
+
+                    border-bottom: 1px solid white;
+                    margin-left: 10px;
+                    width: 630px;
+                    text-align: left;
+                }
+
+                .l3 {
+                    border-bottom: 1px solid white;
+                    margin-left: 10px;
+                    width: 220px;
+                    text-align: left;
+                }
+            }
+
+            h2,
+            h4 {
+
+                font-family: 'Merriweather';
+                color: white;
+            }
+
+        }
+
+        #skills {
+            display: none;
+            margin-left: 255px;
+            margin-top: 140px;
+
+            div {
+                display: flex;
+
+                .l1 {
+                    width: 220px;
+                }
+
+                .l2 {
+                    padding-right: 10px;
+                }
+
+                .l1,
+                .l2 {
+                    color: white;
+                    font-size: 30px;
+                    font-family: 'Merriweather';
+                    padding-left: 12px;
+                    height: 40px;
+                    border-bottom: 1px solid white;
+                }
+            }
+
+
+        }
+
+        #screen_name {
+            color: white;
+            margin-top: 15px;
+            margin-left: 46px;
+            width: 800px;
+            font-size: 20px;
+            font-family: 'Merriweather';
+            border-bottom: 1px solid white;
+        }
+
+        img {
+            margin-top: 20px;
+            border: 1px solid white;
+            width: 800px;
+            height: 400px;
+            margin-left: 10px;
+        }
+
+        #show_screen,
+        #show_cert {
+            display: none;
+        }
+
+
+        .btn {
+            font-size: 20px;
+            font-family: 'Merriweather';
+            width: 150px;
+            height: 50px;
+            margin-top: 10px;
+            background-color: black;
+            border: 1px solid white;
+            opacity: .7;
+            color: white;
+
+        }
+
+        #next_screen,
+        #next_cert {
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+        #prev_screen,
+        #prev_cert {
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+    }
+}
+
+@font-face {
+    src: url('./fonts/merriweather/Merriweather-LightItalic.ttf');
+    font-family: 'Merriweather';
+}

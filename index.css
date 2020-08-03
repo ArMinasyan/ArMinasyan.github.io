@@ -1,0 +1,228 @@
+body {
+  background-image: url("./background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#general {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 20px;
+  margin-left: -12px;
+}
+
+#general #Main {
+  display: -ms-grid;
+  display: grid;
+}
+
+#general #Main #p1,
+#general #Main #p2,
+#general #Main #p3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#general #Main #p1 .d1,
+#general #Main #p2 .d1,
+#general #Main #p3 .d1 {
+  background-color: black;
+  opacity: .7;
+  margin-left: 30px;
+  width: 200px;
+  height: 180px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+#general #Main #p1 .d1:hover,
+#general #Main #p2 .d1:hover,
+#general #Main #p3 .d1:hover {
+  background: none;
+}
+
+#general #Main #p1 .d1 span,
+#general #Main #p2 .d1 span,
+#general #Main #p3 .d1 span {
+  font-size: 24px;
+  font-family: 'Merriweather';
+  text-align: center;
+  display: block;
+  margin-top: 70px;
+  color: white;
+}
+
+#general #Main #p1 .d1 span:hover,
+#general #Main #p2 .d1 span:hover,
+#general #Main #p3 .d1 span:hover {
+  cursor: default;
+}
+
+#general #Main #p3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#general #Main #p3 .d1 {
+  width: 428px;
+}
+
+#general #Show {
+  width: 100%;
+  text-align: center;
+  margin-left: 15px;
+  background-color: black;
+  opacity: .7;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+#general #Show .item {
+  display: none;
+}
+
+#general #Show #welcome {
+  display: block;
+  margin-top: 200px;
+  font-size: 100px;
+  font-family: 'Merriweather';
+  color: white;
+}
+
+#general #Show #personal {
+  display: none;
+  margin-top: 200px;
+}
+
+#general #Show #personal h3 {
+  font-size: 24px;
+  font-family: 'Merriweather';
+  color: white;
+}
+
+#general #Show #education {
+  display: none;
+  margin-top: 75px;
+}
+
+#general #Show #education .l1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15px;
+}
+
+#general #Show #education .l1 .l2 {
+  border-bottom: 1px solid white;
+  margin-left: 10px;
+  width: 630px;
+  text-align: left;
+}
+
+#general #Show #education .l1 .l3 {
+  border-bottom: 1px solid white;
+  margin-left: 10px;
+  width: 220px;
+  text-align: left;
+}
+
+#general #Show #education h2,
+#general #Show #education h4 {
+  font-family: 'Merriweather';
+  color: white;
+}
+
+#general #Show #skills {
+  display: none;
+  margin-left: 255px;
+  margin-top: 140px;
+}
+
+#general #Show #skills div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#general #Show #skills div .l1 {
+  width: 220px;
+}
+
+#general #Show #skills div .l2 {
+  padding-right: 10px;
+}
+
+#general #Show #skills div .l1,
+#general #Show #skills div .l2 {
+  color: white;
+  font-size: 30px;
+  font-family: 'Merriweather';
+  padding-left: 12px;
+  height: 40px;
+  border-bottom: 1px solid white;
+}
+
+#general #Show #screen_name {
+  color: white;
+  margin-top: 15px;
+  margin-left: 46px;
+  width: 800px;
+  font-size: 20px;
+  font-family: 'Merriweather';
+  border-bottom: 1px solid white;
+}
+
+#general #Show img {
+  margin-top: 20px;
+  border: 1px solid white;
+  width: 800px;
+  height: 400px;
+  margin-left: 10px;
+}
+
+#general #Show #show_screen,
+#general #Show #show_cert {
+  display: none;
+}
+
+#general #Show .btn {
+  font-size: 20px;
+  font-family: 'Merriweather';
+  width: 150px;
+  height: 50px;
+  margin-top: 10px;
+  background-color: black;
+  border: 1px solid white;
+  opacity: .7;
+  color: white;
+}
+
+#general #Show #next_screen,
+#general #Show #next_cert {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+#general #Show #prev_screen,
+#general #Show #prev_cert {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+@font-face {
+  src: url("./fonts/merriweather/Merriweather-LightItalic.ttf");
+  font-family: 'Merriweather';
+}
+/*# sourceMappingURL=index.css.map */
